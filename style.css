@@ -32,33 +32,33 @@ nav ul {
 }
 
 .dropdown {
-  display: none; /* Hide the dropdown by default */
-  position: absolute; /* Position it absolutely relative to the parent li */
-  background-color: #ffffff95; /* Background color of the dropdown */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
-  padding: 10px 0; /* Spacing inside the dropdown */
-  list-style: none; /* Remove bullets */
-  z-index: 1000; /* Ensure it appears above other elements */
+  display: none;
+  position: absolute;
+  background-color: #ffffff95;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  list-style: none;
+  z-index: 1000;
 }
 
 li:hover .dropdown {
-  display: block; /* Show the dropdown on hover of the parent li */
+  display: block;
 }
 
 .dropdown li {
-  margin: 0; /* Remove margin for dropdown items */
+  margin: 0;
 }
 
 .dropdown li a {
-  display: block; /* Make the links block-level for better click area */
-  padding: 10px 20px; /* Padding for dropdown items */
-  color: #333333; /* Same color for dropdown links */
-  text-decoration: none; /* Remove underline */
+  display: block;
+  padding: 10px 20px;
+  color: #333333;
+  text-decoration: none;
 }
 
 .dropdown li a:hover {
-  background-color: #f0f0f061; /* Change background on hover */
-  color: #6178dd; /* Change text color on hover */
+  background-color: #f0f0f061;
+  color: #6178dd;
 }
 
 .logo img {
@@ -392,7 +392,7 @@ ul li a:hover {
   justify-content: center;
   align-items: center;
   gap: 60px;
-  flex-wrap: wrap; /* Allows wrapping for smaller screens */
+  flex-wrap: wrap;
 }
 
 .alumni {
@@ -1271,6 +1271,139 @@ footer {
     height: 50px; /* Reduces logo height on smaller screens */
     margin: 5px 10px;
   }
+
+  .banner .video iframe {
+    width: 90%;
+     height: 30vh;
+ }
+
+ .testimonial {
+  margin-left: -10px;
+  margin-top: 40px;
+ }
+
+ .tm > h1 {
+  font-size: 20px;
+  margin-left: 17px;
+}
+
+.tm > p {
+  font-size: 12px;
+  margin-left: 20px;
+  width: 200px;
+  line-height: 1rem;
+  margin-top: 10px;
+}
+
+ .ibadan {
+ 
+ }
+
+ .stretch-image {
+  display: none;
+ }
+
+ .banner {
+  flex-direction: column;
+  height: auto;
+ }
+
+.banner .video iframe {
+  width: 100%;
+  height: 200px;
+}
+
+.banner .content {
+  text-align: left;
+  padding-top: 20px;
+}
+
+.banner h1 {
+  font-size: 28px;
+}
+
+.banner p {
+  font-size: 12px;
+}
+
+.banner .btn {
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+.testimonial-slider {
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial-card {
+  width: 90%;
+  margin-right: 0;
+}
+
+.pbl-container {
+  text-align: center;
+}
+.pbl {
+  flex: 0 0 100%;
+  margin-right: 0;
+  margin-left: -130px;
+}
+
+.pbl > p {
+  font-size: 12px;
+  width: 200px;
+  text-align: center;
+  align-items: center;
+}
+.faq-container {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.faq-left {
+  text-align: center;
+}
+
+.faq-left h1 {
+  font-size: 12px;
+}
+
+.faq-left h3 {
+  font-size: 1rem;
+}
+
+.faq-right {
+  width: 100%;
+}
+
+.faq-item h4 {
+  font-size: 1.1rem;
+}
+
+.faq-item p {
+  font-size: 12px;
+  width: 200px;
+}
+
+.news-card {
+  flex: 1 1 100%;
+}
+
+.news-header {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.read-more-btn {
+  margin-top: 10px;
+}
+
+section.banner2 {
+  width: fit-content;
+}
+
 }
 
 /* Responsive Styles for Smallest Screens (425px to 320px) */
@@ -1388,4 +1521,14 @@ footer {
     display: none;
   }
 
+  .banner .video iframe {
+     width: 50%;
+      height: 30vh;
+  }
+
+  .stretch-image {
+    display: none;
+   }
+
+   
 }
